@@ -2,7 +2,7 @@
 Creating HDR image from image stack with multiple exposures
 
 ## Introduction
-The goal of this project is to recover high dynamic range radiance maps from photographs to crease an image that captures details from the entire dynaimic range. This project has two parts, radiane map construction and tone mapping. For the first part, we implement algorithm from [Debevec, Malik](http://www.pauldebevec.com/Research/HDR/debevec-siggraph97.pdf) to recover high dynamic range radiance map. Then we apply tone mapping and intensity adjustmemt to convert the radiance map into displayable image.
+The goal of this project is to recover high dynamic range radiance maps from photographs to crease an image that captures details from the entire dynaimic range. This project has two parts, radiane map construction and tone mapping. For the first part, we implement algorithm from [Debevec, Malik](http://www.pauldebevec.com/Research/HDR/debevec-siggraph97.pdf) to recover high dynamic range radiance map. Then we apply tone mapping and intensity adjustmemt to to convert the radiance map into displayable image.
 
 ## Algorithm Overview
 ### High Dynamic Range Radiance Map Construction
